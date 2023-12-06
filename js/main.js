@@ -70,11 +70,18 @@ var menuLeft = document.getElementById( 'cbp-spmenu' ),
  
         setTimeout(function (){ $('.btn').addClass('anim'); }, 1000); 
          
+        //$('#about').waypoint(function(direction) {
+        //  $('#about').animate({ opacity: 1 }, 1500);
+        //  setTimeout(function (){ $('#clients').animate({ opacity: 1 }, 1500); }, 500);  
+        //}, { offset: 150}); 
+
         $('#about').waypoint(function(direction) {
           $('#about').animate({ opacity: 1 }, 1500);
-          setTimeout(function (){ $('#clients').animate({ opacity: 1 }, 1500); }, 500);  
-        }, { offset: 150}); 
+        }, { offset: '80%'}); 
 
+        $('#clients').waypoint(function(direction) {
+          $('#clients').animate({ opacity: 1 }, 1500);
+        }, { offset: '80%'}); 
      
         function sniffer() {
             var windowHeight=$(window).height();

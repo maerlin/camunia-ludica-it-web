@@ -255,8 +255,9 @@ nav #logo a {
 
 #navigation_mobile { 
     float:right;
-    display: inline-block;
+    /*display: inline-block;*/
 }
+
 #cbp-spmenu ul{
     list-style: none;
     padding-left:0px;   
@@ -374,7 +375,7 @@ nav #logo a {
 
 .btn:before {
 	font-family: 'unicons';
-	speak: none;
+	/*speak: none;*/
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -387,7 +388,7 @@ nav #logo a {
 .icon-arrow:before {
 	content: "\e096";
 }
-.
+
 .btn-arrow-green {
     border-radius: 50px;
     border: 2px solid #67A340;
@@ -467,7 +468,8 @@ nav #logo a {
     display:block;
     position:relative;
     z-index:120;
-    padding-top:90px;
+    /*padding-top:90px;*/
+    padding-top:30px;
     text-align:center;
     padding-bottom:72px;
     opacity: 0;  
@@ -477,9 +479,9 @@ nav #logo a {
     color:#4c4c4c;
 }
 
-#about blockquote p {
+/*#about blockquote p {
    
-}
+}*/
 
 
 /*##################################################################*/
@@ -536,8 +538,8 @@ nav #logo a {
     color:white;   
 }    
 
-#service_boxes {
-}
+/*#service_boxes {
+}*/
 
 #service_boxes ul {
 color: #000000;
@@ -882,7 +884,7 @@ text-align: center;
 }
 .btn-blue:before {
 	font-family: 'unicons';
-	speak: none;
+	/*speak: none;*/
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -1041,7 +1043,7 @@ text-align: center;
     padding: 0px;
     /* For IE, the outcast */
     zoom:1;
-    *display: inline;
+    display: inline;
 }
 
 .social_icons li {

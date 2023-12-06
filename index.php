@@ -198,7 +198,7 @@
                 </div>
                 <div class="row">-->
                 <br><h4>Scopri le novità su Facebook</h4>
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcamunialudica&tabs=events&width=500&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="500" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcamunialudica&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>
             
         </div>
@@ -228,14 +228,6 @@
     <script src="js/jquery.fittext.js"></script>
     <script src="js/jquery.lettering.js"></script>
     <script src="js/jquery.textillate.js"></script>
-    <script src="js/AnimOnScroll.js"></script>
-    <script>
-        new AnimOnScroll( document.getElementById( 'grid' ), {
-            minDuration : 0.4,
-            maxDuration : 0.7,
-            viewportFactor : 0.2
-        } );
-    </script>
     <script src="js/cssParser.js"></script> 
     <script src="js/modalEffects.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>  
